@@ -31,7 +31,7 @@ Node C has a value of 46 and a pointer to the next Node -> null/None (there is n
 
 A Node is a Class seperate from a Linked List Class. A Linked List has many Nodes.
 
-### Construct a Node Class in your linked_list.py file?
+### Construct a Node Class in your linked_list.py file.
 <details><summary>Click here for a Hint</summary>
 <p>
 
@@ -46,7 +46,7 @@ class Node:
 </details>
 
 
-### Construct the __init__ method for your Linked List in the linked_list.py file
+### Construct the __init__ method for your Linked List in the linked_list.py file.
 <details><summary>Click here for a Hint</summary>
 <p>
 
