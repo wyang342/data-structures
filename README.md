@@ -14,8 +14,9 @@ We're going to create several data structures and the methods most commonly used
 
 “In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. __More precisely, a data structure is a collection of data values, the relationships among them within computer memory, and the functions or operations that can be applied to the data.__”
 
-## Types of Data Structures (Please Watch The Video Links)
+
 ## RELEASE 0: Construct a Stack, Queue, and Linked List
+(Please Watch The Video Links)
 - [Stacks & Queues](https://youtu.be/wjI1WNcIntg) (Stacks are LIFO "Last in, First out" and have `push` and `pop` methods. Queues are FIFO "First in, First out" and have `enqueue` and `dequeue` methods)
 - [Linked Lists](https://youtu.be/njTh_OwMljA) (Linked Lists utilize `Nodes` at each individual 'point' in the Linked list. Each `Node` has a `data` value and `next` value that points to the next `Node`. Linked Lists have an `insert`, `remove`, `display`, and `search` methods)
 ### Linked List
@@ -77,7 +78,9 @@ class Node():
 </details>
 
 ## STRETCH GOAL: Construct a Binary Search Tree and a Hash Table
-[Binary Tree/Binary Search Tree](https://youtu.be/D5SrAga1pno) (BSTs utilze `Nodes` at each individual point in the BST. Each `Node` has a `key` or `data` value, a `left` value, and a `right` value. The `left` and `right` values point to the `Node` to the left and right of them on the Tree. Binary Search Trees have an `insert`, `delete`, and `search` method)
+(Please Watch The Video Links)
+
+__[Binary Tree/Binary Search Tree](https://youtu.be/D5SrAga1pno):__ (BSTs utilze `Nodes` at each individual point in the BST. Each `Node` has a `key` or `data` value, a `left` value, and a `right` value. The `left` and `right` values point to the `Node` to the left and right of them on the Tree. Binary Search Trees have an `insert`, `delete`, and `search` method)
 ![BST Example](https://github.com/kiloplatoon/curriculum/blob/master/week-03/lecture-materials/bst.png)
 
 A classic problem for trees is how to traverse them — i.e., visit and process every node. There are four flavors of tree traversal:
@@ -90,8 +93,8 @@ pre-order: process the current node value, then go down the left branch, then th
 
 
 
-[Hash Table](https://youtu.be/h2d9b_nEzoA) - [Overview](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) - A Hash Table converts a string value to a numberic `key` value. The value of the `key` is the index of the Hash Table where the string value is stored.
-### Hash Example Steps
+__[Hash Table](https://youtu.be/h2d9b_nEzoA):__ [Overview](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) - A Hash Table converts a string value to a numberic `key` value. The value of the `key` is the index of the Hash Table where the string value is stored.
+#### Hash function example steps
 ```python
 # - Think of a Hash Table is an array that is of a fixed length, lets say a length 35
 # - [None, None, None....] an array of 35 indexes that are initially empty
@@ -105,9 +108,9 @@ def hash(self, string_value):
 ```
 ![Hash Visualization](https://github.com/kiloplatoon/curriculum/blob/master/week-03/lecture-materials/hash_visualization.png)
 
-# Challenge:
+# Challenge
 
-## Construct a Queue, Stack, Binary Search Tree, and a Hash in the respective Python Files
+### Construct a Queue, Stack, Binary Search Tree, and a Hash in the respective Python Files
 
 ## Resources
 * [Fundamentals Explaned](https://www.interviewcake.com/article/python/data-structures-coding-interview)
