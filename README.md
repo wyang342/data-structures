@@ -111,7 +111,7 @@ def hash(self, string_value):
 
 # Challenge
 
-### Construct a Queue, Stack, Binary Search Tree, and a Hash in the respective Python Files
+### Construct a Queue, Stack, Binary Search Tree, and a Hash Table in the respective Python Files
 
 ## Resources
 * [Fundamentals Explaned](https://www.interviewcake.com/article/python/data-structures-coding-interview)
