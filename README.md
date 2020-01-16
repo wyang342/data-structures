@@ -20,7 +20,7 @@ We're going to create several data structures and the methods most commonly used
 - [Stacks & Queues](https://youtu.be/wjI1WNcIntg) (Stacks are LIFO "Last in, First out" and have `push` and `pop` methods. Queues are FIFO "First in, First out" and have `enqueue` and `dequeue` methods)
 - [Linked Lists](https://youtu.be/njTh_OwMljA) (Linked Lists utilize `Nodes` at each individual 'point' in the Linked list. Each `Node` has a `data` value and `next` value that points to the next `Node`. Linked Lists have an `insert`, `remove`, `display`, and `search` methods)
 ### Linked List
-A Link List is a collection of _Nodes_ (a basic unit of a data structure) that contains data, the `data` or  `value` of the _Node_ and a `next` value that points to the next _Node_ in the Linked List.
+A Link List is a collection of _Nodes_ (a basic unit of a data structure) that contains data, the `data` or  `value` of the _Node_, and a `next` value that points to the next _Node_ in the Linked List.
 
 ```
 Head of the Linked List -> Node A
