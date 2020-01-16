@@ -1,4 +1,4 @@
-class Queue():
+class Queue:
   # write your __init__ method here that should store a 'total' value which is the total number of elements in the Queue and a 'queue' value which is an array of stored values in the Queue
 
   def enqueue(self):
