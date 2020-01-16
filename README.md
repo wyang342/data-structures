@@ -1,12 +1,12 @@
 # Data Structures
 
 ## This challenge will help you to:
-- Know is a data structure
+- Know what a data structure is
 - Learn the different types of data structures and the main operations/methods associated with each
 - Create each data structure
 
 ## Summary
-We're going to create each data structure and the methods most commonly used for that data structure using Object Oriented Programming. You've been creating data structures already!
+We're going to create several data structures and the methods most commonly used for that data structure using Object Oriented Programming.
 
 ### READING DOCUMENTATION IS KEY THROUGHOUT YOUR CAREER (80% reading, 20% coding)
 
@@ -19,11 +19,12 @@ __Part One__
 - [Stacks & Queues](https://youtu.be/wjI1WNcIntg) (Stacks are LIFO "Last in, First out" and have `push` and `pop` methods. Queues are FIFO "First in, First out" and have `enqueue` and `dequeue` methods)
 - [Linked Lists](https://youtu.be/njTh_OwMljA) (Linked Lists utilize `Nodes` at each individual 'point' in the Linked list. Each `Node` has a `data` value and `next` value that points to the next `Node`. Linked Lists have an `insert`, `remove`, `display`, and `search` methods)
 __Part Two__
-- [Binary Tree/Binary Search Tree](https://youtu.be/D5SrAga1pno) (BSTs utilze `Nodes` at each individual point in the BST. Each `Node` has a `key` or `data` value, a `left` value, and a `right` value. The `left` and `right` values point to the `Node` to the left and right of them. Binary Search Trees have an `insert`, `delete`, and `search` method)
+- [Binary Tree/Binary Search Tree](https://youtu.be/D5SrAga1pno) (BSTs utilze `Nodes` at each individual point in the BST. Each `Node` has a `key` or `data` value, a `left` value, and a `right` value. The `left` and `right` values point to the `Node` to the left and right of them on the Tree. Binary Search Trees have an `insert`, `delete`, and `search` method)
+![BST Example](https://github.com/kiloplatoon/curriculum/blob/master/week-03/lecture-materials/bst.png)
 - [Hash Table](https://youtu.be/h2d9b_nEzoA) - [Overview](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)
 
 
-## Linked List
+### Linked List
 A Link List is a collection of _Nodes_ (a basic unit of a data structure) that contains data, the `data` or  `value` of the _Node_ and a `next` value that points to the next _Node_ in the Linked List.
 
 ```
@@ -35,7 +36,7 @@ Node C has a value of 46 and a pointer to the next Node -> null/None (there is n
 
 A Node is a Class Object in and of itself, seperate from a Linked List. A Linked List has many Nodes.
 
-# What do you think a Node Class looks like for a Singly Linked List?
+### What do you think a Node Class looks like for a Singly Linked List?
 <details><summary>Click here for a Hint</summary>
 <p>
 
@@ -50,7 +51,7 @@ class Node:
 </details>
 
 
-# What do you think a the __init__ method looks like for a Linked List?
+### What do you think a the __init__ method looks like for a Linked List?
 <details><summary>Click here for a Hint</summary>
 <p>
 
