@@ -1,5 +1,7 @@
 # Data Structures
 
+- [Lecture Slide ](https://docs.google.com/presentation/d/1nyDuwQzPbI05C-S707bs2hnfp_9T3MVUtkhWrh4abK4/edit?usp=sharing)
+
 ## This challenge will help you to:
 - Know what a data structure is
 - Learn the different types of data structures and the main operations/methods associated with each
