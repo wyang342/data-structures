@@ -1,6 +1,6 @@
 # Data Structures
 
-- [Lecture Slide ](https://docs.google.com/presentation/d/1nyDuwQzPbI05C-S707bs2hnfp_9T3MVUtkhWrh4abK4/edit?usp=sharing)
+- [Lecture Slide ](https://github.com/limaplatoon/data-structures/blob/master/Code_Platoon_Linked_List.pdf)
 
 ## This challenge will help you to:
 - Know what a data structure is
