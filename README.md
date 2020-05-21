@@ -22,7 +22,7 @@ We're going to create several data structures and the methods most commonly used
 - [Stacks & Queues](https://youtu.be/wjI1WNcIntg) (Stacks are LIFO "Last in, First out" and have `push` and `pop` methods. Queues are FIFO "First in, First out" and have `enqueue` and `dequeue` methods)
 - [Linked Lists](https://youtu.be/njTh_OwMljA) (Linked Lists utilize `Nodes` at each individual 'point' in the Linked list. Each `Node` has a `data` value and `next` value that points to the next `Node`. Linked Lists have an `insert`, `remove`, `display`, and `search` methods)
 ### Linked List
-A Link List is a collection of _Nodes_ (a basic unit of a data structure) that contains data, the `data` or  `value` of the _Node_, and a `next` value that points to the next _Node_ in the Linked List.
+A Link List is a collection of _Nodes_ (a basic unit of a data structure) that contains data, the `data` or  `value` of the _Node_, and a `next` value that points to the next _Node_ in the Linked List. Note: __Nodes__ may contain different data depending on the type of Data Structure it exists in. i.e. A __Node__ in a Linked List contains different data than a Binary Search Tree. 
 
 ```
 Head of the Linked List -> Node A
@@ -95,7 +95,7 @@ pre-order: process the current node value, then go down the left branch, then th
 * post-order: process all the left children, then right children, then this node's value. This processes leaves before parents, so can be used in languages with explicit memory management to delete nodes in a safe way.
 
 
-
+## Hash Table
 __[Hash Table](https://youtu.be/h2d9b_nEzoA):__ [Overview](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) - A Hash Table converts a string value to a numberic `key` value. The value of the `key` is the index of the Hash Table where the string value is stored.
 #### Hash function example steps
 ```python
